@@ -1,0 +1,79 @@
+.nopadding{
+	padding: 0px;
+	margin: 0px;
+}
+.margin{
+	height: 30px;
+}
+body{
+	background-image: url('pics/backgroud.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.header{
+	background-image: url('pics/header.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 100%;
+	background-position: center;
+	height: 188px;
+	margin-top: 20px;
+	border-radius: 17px;
+}
+.logo{
+	color: #83c240;
+	text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+	position: relative;
+	top: 45%;
+	left: 5%;
+	font-size: 50px;
+	font-family: Bodoni MT Black;
+}
+.sidenav,.main{
+	margin-top: 20px;
+}
+.ul{
+	list-style-type: none;
+	text-decoration: #0a2f2f;
+	font-size: 25px;
+
+}
+.ul li a {
+	text-decoration: none;
+	color: #f6f6f6e6;
+}
+.ul li {
+	background-color: #00800066;
+	padding: 5px;
+	margin: 5px;
+	text-align: center;
+	border-radius: 8px;
+	display: block;
+}
+.ul li:hover {
+	background-color: #1a7b1acc;
+	padding: 5px;
+}
+.form-control.main-input {
+	width: 70%;
+	padding: 3%;
+	border-radius: 15px;
+	font-size: 18px;
+	margin: 5px 0 5px 9%;
+	line-height: 0px;
+}
+.tasks {
+	border: 3px solid #58902b66;
+	margin-top: 10px;
+	font-size: 24px;
+	border-radius: 16px;
+	color: whitesmoke;
+	background-color: #00800066;
+	padding: 7px;
+}
+.tasks:hover{
+	background-color:#1a7b1acc; 
+}
+.remove{
+	float: right;
+}
